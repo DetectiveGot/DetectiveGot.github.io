@@ -136,15 +136,17 @@ body {
 .activities-list {
     width: 100%;
     /* padding: 16px; */
+    transition: border-color 0.3s;
+    border: 3px solid transparent;
+    border-radius: 16px;
 }
 
 .activities-link {
     text-decoration: none;
-    transition: border 1s;
 }
 
-.activities-link:hover {
-    border: 5px solid blue;
+.activities-list:hover {
+    border-color: rgba(31, 121, 255, 0.5);
 }
 
 .activities-box {
@@ -164,7 +166,7 @@ body {
     color: black;
     font-size: 18px;
     font-weight: 600;
-    height: 20%;
+    /* height: 20%; */
     margin-bottom: 16px;
 }
 
@@ -178,5 +180,5 @@ body {
 .activities-image {
     width: 100%;
     object-fit: cover;
-    border: 1px solid rgba(180, 180, 180, 0.8);
+    /* border: 1px solid rgba(180, 180, 180, 0.8); */
 }
