@@ -63,6 +63,34 @@ const members = [
         imgSrc: "images/Pope.JPG",
         contactLink: "https://www.instagram.com/p_natinz/",
     },
+    {
+        name: "x._gunne",
+        role: "member",
+        rank: 1,
+        imgSrc: "images/Gunne.JPG",
+        contactLink: "https://www.instagram.com/x._gunne/",
+    },
+    {
+        name: "detective_got",
+        role: "member",
+        rank: 1,
+        imgSrc: "images/DetectiveGot.JPG",
+        contactLink: "https://www.instagram.com/detective_got/",
+    },
+    {
+        name: "kana_11433",
+        role: "member",
+        rank: 1,
+        imgSrc: "images/Tonmai.JPG",
+        contactLink: "https://www.instagram.com/kana_11433/",
+    },
+    {
+        name: "buke",
+        role: "member",
+        rank: 1,
+        imgSrc: "images/Buke.JPG",
+        contactLink: "",
+    },
 ];
 
 function renderMembers() {
