@@ -2,28 +2,66 @@
 const members = [
     {
         name: "m_mahunnop",
+        role: "member",
+        rank: 1,
         imgSrc: "images/Mixer.JPG",
         contactLink: "https://www.instagram.com/m_mahunnop/",
     },
     {
         name: "tohoku_man",
+        role: "member",
+        rank: 1, 
         imgSrc: "images/Icon.JPG",
         contactLink: "https://www.instagram.com/tohoku_man/",
     },
     {
         name: "phumi_kijja",
+        role: "member",
+        rank: 1,
         imgSrc: "images/Phume.JPG",
         contactLink: "https://www.instagram.com/phumi_kijja/",
     },
     {
         name: "9_41_132",
+        role: "member",
+        rank: 1,
         imgSrc: "images/Pawaris.JPG",
-        contactLink: "https://www.instagram.com/phumi_kijja/",
+        contactLink: "https://www.instagram.com/9_41_132/",
     },
     {
         name: "ice_kanx",
+        role: "member",
+        rank: 1,
         imgSrc: "images/Icekanx.JPG",
         contactLink: "https://www.instagram.com/ice_kanx/",
+    },
+    {
+        name: "gu_tawan__",
+        role: "member",
+        rank: 1,
+        imgSrc: "images/Tawan.JPG",
+        contactLink: "https://www.instagram.com/gu_tawan__/",
+    },
+    {
+        name: "sunkung138",
+        role: "member",
+        rank: 1,
+        imgSrc: "images/Sunday.JPG",
+        contactLink: "https://www.instagram.com/sunkung138/",
+    },
+    {
+        name: "pruek1929",
+        role: "👑Admin",
+        rank: 0,
+        imgSrc: "images/Pruek.JPG",
+        contactLink: "https://www.instagram.com/pruek1929/",
+    },
+    {
+        name: "p_natinz",
+        role: "member",
+        rank: 1,
+        imgSrc: "images/Pope.JPG",
+        contactLink: "https://www.instagram.com/p_natinz/",
     },
 ];
 
@@ -35,9 +73,10 @@ function renderMembers() {
         listItem.classList.add("activities-list");
 
         const memberHTML = `
-            <li class="members-list">
+            <li class="members-list" style="order:${member.rank};">
                 <div class="member">
                     <img class="member-image" src="${member.imgSrc}" alt="${member.name}" />
+                    <p class="member-rank">${member.role}</p>
                     <p class="member-name">${member.name}</p>
                     <ul class="contact-list">
                         <li>
