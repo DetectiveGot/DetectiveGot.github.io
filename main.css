@@ -331,6 +331,11 @@ body {
         font-weight: 400px;
         color: black;
     }
+    .member-rank {
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 400;
+    }
     
     .footer-text {
         font-size: 12px;
@@ -376,5 +381,11 @@ body {
         font-weight: 400px;
         color: black;
     }
+
+    /* .member-rank {
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 400;
+    } */
 
 }

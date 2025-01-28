@@ -51,7 +51,7 @@ const members = [
     },
     {
         name: "pruek1929",
-        role: "👑Admin",
+        role: "👑admin",
         rank: 0,
         imgSrc: "images/Pruek.JPG",
         contactLink: "https://www.instagram.com/pruek1929/",
